@@ -121,7 +121,7 @@ erasing: 0.4 # (float) probability of random erasing during classification train
 crop_fraction: 1.0 # (float) image crop fraction for classification (0.1-1), 1.0 means no crop, must be greater than 0.
 
 # Custom config.yaml ---------------------------------------------------------------------------------------------------
-cfg: # (str, optional) for overriding defaults.yaml
+dataset: "923_windshields" # (str, optional) for overriding defaults.yaml
 
 # Tracker settings ------------------------------------------------------------------------------------------------------
 tracker: botsort.yaml # (str) tracker type, choices=[botsort.yaml, bytetrack.yaml]
